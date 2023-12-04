@@ -1,0 +1,19 @@
+>> printf
+
+    || printf( object, sep = seperator, end ) ||
+
+- object :  các đối tượng trong python
+- sep : phân cách giữa các đôi tượng khi in, nếu không có tham số này thì mặc định là dấu cách
+- end : chỉ ra kí tự được in ở cuối của dòng, nếu không có tham số này thì mặc định sẽ là dấu xuống dòng
+
+>> Python syntax và chú thích
+- không cần dấu chấm phẩy
+- python sử dụng thụt lề để chỉ ra một khối lệnh mới
+- chú thích 
+    || # ||
+- chú thích nhiều dòng 
+    """
+    this is 
+    comment
+    block
+    """
