@@ -17,3 +17,64 @@
     comment
     block
     """
+
+>> Biến và kiểu dữ liệu
+- vùng chứa
+- dynamic typing
+- để biết kiểu dữ liệu có thể dùng hàm type()
+
+- tiền tố
+    + 0b : nhị phân
+    + 0o : hệ octa
+    + 0x : hệ thập lục
+
+- giá trị lớn nhất có thể lưu của số thực là 1.8 * 10^308, giá trị lớn lớn số này là infinity
+
+- ép kiểu : 
+    + int() : ép thành int
+    + float() : ép thành float
+
+
+>> toán tử
+* toán tử gán
+    a = b
+    a, b, c = 100, 200, 300
+
+* toán tử toán học
+    + - * /
+    // chia nguyên
+    % chia dư
+    ** lũy thừa
+
+* toán tử so sánh
+    ==  >  >=  < <= !=
+
+* toán tử logic
+    and 
+    or
+    not
+
+* toán tử nhận dạng
+    dùng is
+    ex 
+        a = [1 , 2 , 3]
+        b = [1, 2, 3]
+        printf(a is b) = false
+        printf ( a == b) = true
+
+* toán tử thành viên
+    - toán tử in
+
+* toán tử bit
+
+>> Toán tử rẽ nhánh
+
+* if else
+    if condition:
+        #code
+    elif condition: 
+        #code
+    else
+
+* shoerhand if ( toan tử 3 ngôi )
+    variable = statment if condition else statment
