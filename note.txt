@@ -34,6 +34,42 @@
     + int() : ép thành int
     + float() : ép thành float
 
+* kiểu chuỗi trong Python
+    - là kiểu dữ liệu được đặt trong ngoặc đơn hoặc ngoặc kép
+    - chuỗi nhiều dòng
+    - một số ký hiệu đặc biệt trong chuỗi
+        + alert : \a 
+        + backspace \b
+        + Newline \n 
+        + tab \t 
+        + \' \" \\
+    - toán tử in :
+        + kiểm tra một chuỗi có nằm bên trong một chuỗi khác hay không
+        + nhận về giá trị true hoặc false
+    - truyền giá trị
+        a  = ' My name is %s, %s year old ' %('arg 1',' arg 2')
+    - chuỗi f string
+        k = Kteam
+        result = f'{k} - test f sting'
+        print(result) => Kteam - test f string
+
+    - phương thức cho chuỗi
+        + name.capitalize : viết hoa chữ cái đầu
+        + name.upper
+        + name.lower
+        + name.swapcase : chữ viết thường về chuỗi viết hoa, chuỗi viết hoa thành chuỗi viết thường
+        + name.title : viết hoa các ký tự đầu tiên của chữ cái
+        + name.center(width, fillchange)
+    - phương thức xử lý cho chuỗi
+        + encode : mã hóa theo chuẩn
+        + join
+        + replace
+        + strip : loại bỏ ký tự đầu đầu và cuối
+        + split() : tạo thành kiểu list
+        + partition() : tạo thành kiểu dữ liệu tupple
+        + find() : trả về vị trí tìm thấy
+        + index() : sẽ tạo ra lõi nếu k tìm thấy
+
 
 >> toán tử
 * toán tử gán
@@ -78,3 +114,11 @@
 
 * shoerhand if ( toan tử 3 ngôi )
     variable = statment if condition else statment
+
+
+>> For
+    for var in range()
+        #code
+    else : 
+        in ra gì đó
+    
