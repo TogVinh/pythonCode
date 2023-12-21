@@ -10,3 +10,8 @@ print("\n====================");
 print(0x2A)
 
 print("hế lồ")
+
+a = [1,2,'a','b', [3,4]]
+b = a[4][0]
+print(b)
+print(c)

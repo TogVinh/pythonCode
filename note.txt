@@ -35,6 +35,7 @@
     + float() : ép thành float
 
 * kiểu chuỗi trong Python
+
     - là kiểu dữ liệu được đặt trong ngoặc đơn hoặc ngoặc kép
     - chuỗi nhiều dòng
     - một số ký hiệu đặc biệt trong chuỗi
@@ -69,6 +70,31 @@
         + partition() : tạo thành kiểu dữ liệu tupple
         + find() : trả về vị trí tìm thấy
         + index() : sẽ tạo ra lõi nếu k tìm thấy
+
+* Kiểu list
+    - giống cấp phát động
+    - giới hạn bởi cặp ngoặc vuông, các phần tử của list được cách nhau bởi dấu phẩy
+    - có khả năng chứa mọi giá trị và chính nó
+    
+    a = list(iterable)
+    // iterable là một dạng cấu trúc tập hợp
+
+    - không thể nhân hai list cho nhau, chỉ có thể nhân list với 1 số nhằm nhân chính nó lên nhiều lần
+    - in : kiểm tra mọt phần tử có hay không
+    - list_Name[index] : lấy ra phần tử có thứ tự index trong list ( tính từ 0)
+    - list() : list contructor
+    - nameList.count(value) : đếm coi value xuất hiện bao nhiêu lần trong list
+    - nameList.index(value) : xem coi value nằm ở vị tri nào
+    - nameList.count(value) : đếm số lần xuất hiện của value trong list
+    - nameList.index(value) : trả về vị trí của value trong list
+    - nameList.copy() : tạo ra một bản sao của list ban đầu
+    - name.append() : thêm vào phần tử
+    - name.extend() : lấy từng phần tử cho vào list
+    - name.insert(index, value) : thêm phần tử value vào vị trí index 
+    - name.pop(index) : bỏ đi phần tử thứ index trong list, nếu không truyền vào giá trị index thì mặc định xóa đi phần tử cuối
+    - name.remove(value) : xóa giá trị value trong list
+    - name.reverse() : tạo ra một list đảo ngược lại
+    - name.sort() : sẽ sắp xếp lại list với mặc định là từ nhỏ tới lớn
 
 
 >> toán tử
