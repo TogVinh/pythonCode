@@ -96,6 +96,26 @@
     - name.reverse() : tạo ra một list đảo ngược lại
     - name.sort() : sẽ sắp xếp lại list với mặc định là từ nhỏ tới lớn
 
+* Kiểu Tuple 
+    - Gần giống với list, bản chất cũng là một container
+    - được giới hạn bởi cặp ngoặc ()
+    - các phần tử của tuple được phân cách bởi dấu ,
+    - có khả năng chứa mọi giá trị
+    - tốc độ truy xuất của tuple nhanh hơn list
+    - dung lượng chiếm bộ nhớ nhỏ hơn list
+    - bảo vệ dữ liệu của bạn sẽ không bị thay đổi, có thể dùng làm key của dictionary
+    - theo lý thuyết thì không thể thay đổi giá trị của tuple bằng cách gắn cho index của nó bằng một giá trị khác
+
+    - in : check index có tron tuple hay không 
+    - nameTuple[index] : phần tử thứ index của tuple
+
+* sự khác nhau của Hashable & unhashable object
+    - các giá trị cũng là một đối tượng
+    - hàm id() : trả về giá trị int hoặc long int, là một hằng số tùy theo giá trị truyền vào và sẽ không thay đổi suốt chương trình (hàm id sẽ trả về địa trỉ trong bộ nhớ)
+    - Hashable : là kiểu không thể thay đổi giá trị
+        -> sẽ sinh ra đủ ra trị của ô nhớ, nên khi muốn thay đổi, cần đưa ra nơi có bộ nhớ mới
+    - unhashable : có thể thay đổi giá trị 
+        -> bộ nhớ sẽ luôn chừa ra khoảng trống để dự trữ nếu cần thêm giá trị mới
 
 >> toán tử
 * toán tử gán
@@ -129,22 +149,4 @@
 
 * toán tử bit
 
->> Toán tử rẽ nhánh
-
-* if else
-    if condition:
-        #code
-    elif condition: 
-        #code
-    else
-
-* shoerhand if ( toan tử 3 ngôi )
-    variable = statment if condition else statment
-
-
->> For
-    for var in range()
-        #code
-    else : 
-        in ra gì đó
     
