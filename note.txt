@@ -117,6 +117,22 @@
     - unhashable : có thể thay đổi giá trị 
         -> bộ nhớ sẽ luôn chừa ra khoảng trống để dự trữ nếu cần thêm giá trị mới
 
+* Kiểu dữ liệu Set
+    - được giới hạn bởi cặp ngoặc {}, tất cả những gì nằm trong đó là những phần tử của Set
+    - Các phần tử của Set được phân tách bằng dấu ,
+    - Set không chứ nhiều hơn 1 phần tử trùng lặp
+    - Set chỉ có thể chứ các Hashable object nhưng chính nó lại không phải là một Hashable object, do đó không thể chứa set lồng set, và không thể chứa được list 
+    - không thể tạo một empty set với dấu ngoặc nhọn
+    - set sẽ không quan tâm đến vị trí của các phần tử
+
+    - toán tử
+        + toán tử in
+        + set.clear
+        + set.pop() : xóa đầu tiên
+        + set.remove(value) : xóa phần tử có giá trị value
+        + set.discard(value) : 
+        + set.copy()
+
 >> toán tử
 * toán tử gán
     a = b
