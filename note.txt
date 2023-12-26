@@ -133,6 +133,27 @@
         + set.discard(value) : 
         + set.copy()
 
+* kiểu dữ liệu Dictionary
+    - là một container
+    - Dict được phân biệt bởi các key
+    - một Dict gồm các yếu tố
+        + được giới hạn bởi cặp ngoặc {}
+        + các phần tử của Dict được phân cách nhau bởi dấu phẩy
+        + các phân tử phải là một cặp key-value
+        + các key buộc phải là một hash object
+
+    - phương thức của Dict
+        + dict.copy()
+        + dict.clear()
+    
+    - phương thức xử lý
+        + dict.get(key, default) : trả về value, sẽ trả về defalut nếu key không tồn tại
+        + dict.items() : trả về tuple 
+        + dict.keys() : lấy ra danh sách của key trong dict
+        + dict.pop(key) : lây ra giá trị value của key và sẽ xóa đi giá trị key trong dict
+        + dict.setdefault(key) : trả về value của key, nếu key k tồn tại sẽ thêm key vào trong dict
+        + dict.update() : cập nhập nội dung cho dict
+
 >> toán tử
 * toán tử gán
     a = b
