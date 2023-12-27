@@ -154,6 +154,16 @@
         + dict.setdefault(key) : trả về value của key, nếu key k tồn tại sẽ thêm key vào trong dict
         + dict.update() : cập nhập nội dung cho dict
 
+>> Xử lý File trong Python
+    - hai loại : file txt và file binary
+    - open() : mở file
+    - read(value) : đọc file, nếu value là số âm thì sẽ đọc hết file và đưa con trỏ về cuối file, nếu không số đọc với số lượng là value
+    - file.close() : đóng file
+    - có thể đọc file bằng các contructor
+    - file.write(value) : ghi tên value vào file, sẽ trả về số lượng ký tự 
+
+    => Note : nếu mode='a+' thì sẽ đưa con trỏ về cuối file ngay sau khi mở
+
 >> toán tử
 * toán tử gán
     a = b
