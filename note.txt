@@ -164,6 +164,14 @@
 
     => Note : nếu mode='a+' thì sẽ đưa con trỏ về cuối file ngay sau khi mở
 
+>> iterable 
+    - iterator là một khái iệm chung cho việc lấy từng phần tử một của một đối tượng đó
+    - iterable : là một object có phương thức _iter_ trả về một iterator cho phép bạn lấy bất cứ phần tử nào của nó bằng indexing
+    - iterator không có khả năng tái sử dụng trừ một sô iterator có phương thức hỗ trợ như file object, ví dụ như seek()
+
+    - sum(iterator) : tính tổng dữ liệu số, và sẽ đưa con trỏ về cuối danh sách
+    - 
+
 >> toán tử
 * toán tử gán
     a = b
